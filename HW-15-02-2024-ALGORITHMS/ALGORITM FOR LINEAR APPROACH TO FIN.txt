@@ -1,0 +1,25 @@
+ALGORITM FOR LINEAR APPROACH TO FIND SQUARE SUM OF ALL ELELMENTS IN THE ARRAY
+
+1) REALIZE the solution of this algorithm
+2) START writing the linear approach algorithm
+3) READ the task
+4) UNDERSTAND the task
+5) TASK find the array sum adding each squared elements in the array
+6) DEFINE the array
+7) INPUT this array on board or paper
+8) JAVA CODE calculate the sum of squeared elements in the array
+9) CREATE Java class - " public class SumOfSquares {"
+10) WRITE method to calculate this task(list #5) in the method of SumOfSquares class
+11) JAVA CODE METHOD write next line - " public static int sumOfSquares (int [ ] arr) {" - open body
+12) RELEASE logic of the sumOfSquares() method next line - " int sum = 0;"
+13) START CYCLE in the method next line - " for (int num : arr) {" - open body
+14) TYPE cycle body that calculates eacn element in the array into squares - " sum += num * num; }" - close cycle body
+15) GIVE the result by writitng next line - " returm sum; }" - close the method body
+16) WRITE Java code for running the Java code in the (main static class) over the next line - " public static void main(String[] args) {" - open main class body
+17) WRITE Java code creating the array next line - " int[ ] array = {3, 6, 4, 7, 2, 1, 9};"
+18) WRITE Java code launching the array over the method we created in SumOfSquares class next line - " int result = sumOfSquares(array);"
+19) AS RESULT to see in the console write next line - " System.out.println("Sum of squares for elements in array = " + result); }" -close main body - " } " - close SumOfSquares class body
+20) TEST by using calculator or paper and pen to square each element in the array entering - "3x3=9, 6x6=36, 4x4=16, 7x7=49, 2x2=4, 1x1=1, 9x9=81" - add up all answers from squared elements together - " 9+36+16+49+4+1+81=196"
+21) COMPARE answers from the console in Java code with your calculations tha it is equal - " 196 Java console = 19 6My calculations" - equal
+22) TASK is complete and resolved correctly
+23) END 
